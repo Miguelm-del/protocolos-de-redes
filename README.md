@@ -2,9 +2,9 @@
 
 <p>Servidor ECO</p>
 
+<ul>
+  <li>HTTP</li>
+  <li>TCP</li>
+  <li>UDP</li>
+</ul>
 
-<h2>HTTP</h2>
-
-<h2>TCP</h2>
-
-<h2>UDP</h2>
