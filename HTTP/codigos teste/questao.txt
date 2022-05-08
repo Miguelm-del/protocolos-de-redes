@@ -1,9 +1,0 @@
-O objetivo dessa atividade é a criação de um servidor de uma aplicação de rede. Mais precisamente, vocês devem desenvolver o Ecoardor Tabajara, que é um servidor de eco. Ou seja, o servidor deve responder requisições com o corpo das requisições recebidas. 
-
-Para facilitar a codificação, o servidor pode ser implementado utilizando como base o protocolo HTTP. Ou seja, as requisições recebidas devem seguir esse protocolo, tão discutido em sala de aula. Caso prossigam utilizando o protocolo HTTP, ao receber uma requisição do tipo POST no caminho raiz (“/”), o servidor deve retornar uma resposta com o corpo igual ao que recebeu no corpo da requisição requisição.
-
-Vocês podem testar o servidor utilizando Postman, curl ou httpie. Exemplo da chamada utilizando curl:
-
-$ curl localhost:8080 -d “Olá Mundo” 
-
-Deve imprimir na tela o texto “Olá Mundo”.
